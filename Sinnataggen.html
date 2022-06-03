@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- må alltid ha språk -->
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/Sinnataggen.css">
+    
+
+    <!-- <scrip src="JS/app.js"></script> -->
+    <scrip src="./JS/forelesning.js"></script>
+        <script type="module" src="./js/map.js"></script>
+</head>
+<body>
+
+    
+    <div class="mainframe">
+
+        <div class="header">
+            <div class="back">
+                <a href="index.html">
+                    <img src="./assets/icons/Back/icons8-back-30.png" alt="">
+                </a>
+            </div>
+            
+            <div class="">
+                <h1>Frognerparken</h1>
+            </div>
+
+        </div>
+
+        <div class="carusel">
+            
+            <div class="carusel__track-container">
+                <div class="carusel__track">
+                    <div class="carusel__slide current-slide"><img src="./assets/images/Frognerparken/fp1.webp" alt=""></div>
+               
+                    <div class="carusel__slide"><img src="./assets/images/Frognerparken/fp2.webp" alt=""></div>
+                
+                    <div class="carusel__slide"><img src="./assets/images/Frognerparken/fp4.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            <div class="carusel__buttons">
+                <button class="carusel__button-previous"></button>
+                <button class="carusel__button-next"></button>
+            </div>
+            
+            
+            <div class="carusel__nav">
+                <button class="carusel__indicator current-slide"></button>
+                <button class="carusel__indicator"></button>
+                <button class="carusel__indicator"></button>
+            </div>
+        </div>
+
+
+        <h5 class="space"> #tur, #sinnataggen </h5> 
+        <div class="profile space">
+            <h3> Profil 123</h3>
+        </div>
+        <h6 class="space">litt teskt om aktiviteten: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae officiis ea, rerum quia ut illo. Facilis, sit et assumenda veritatis officia, quo soluta culpa enim quaerat optio repellendus deleniti accusamus?</h6>
+        <!-- <div class="ikons">
+            <div class="item1  ikon"></div>
+            <div class="item2  ikon"></div>
+            <div class="item3  ikon"></div>
+            <div class="item4  ikon"></div>
+            <div class="item5  ikon"></div>
+            <div class="item6  ikon"></div>
+
+        </div> -->
+        <div class="toMapSinnataggen">
+            <form action="mapSinnataggen.html">
+                <input class="linkbutton" type="submit" value="åpne kart"/>
+            </form>
+
+            
+
+            
+            <button> mer informasjon</button>
+            
+
+        </div>
+
+
+        
+
+    </div>
+    
+
+    <script type="module" src="./js/forelesning.js"></script>
+
+    
+</body>
+</html>

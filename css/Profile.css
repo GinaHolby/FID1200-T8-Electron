@@ -1,0 +1,34 @@
+.pictureGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 35vh;
+    grid-gap: 16px;
+
+}
+
+.pictureGrid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    position: sticky;
+    top:0;
+    background-color: black;
+    color: antiquewhite;
+}
+main {
+    padding: 16px;
+    background-color: black;
+    color: antiquewhite;
+    flex: 1 1 auto;
+   
+}
+ body{
+     
+     background-color: black;
+ }

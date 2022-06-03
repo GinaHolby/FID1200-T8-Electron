@@ -1,0 +1,125 @@
+.back{
+    filter: invert();
+    margin-right: 24px;
+    
+}
+
+.header{
+
+    display: flex;
+
+
+}
+
+
+.carusel {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    margin-top: 8px;
+    
+   
+}
+
+
+.carusel__slide{
+    position: absolute;
+   
+}
+.carusel__slide img{
+    
+    height: 350px;
+    width: 100vw;
+    object-fit: cover;
+    
+    
+    
+    
+}
+.carusel__nav{
+    
+    display: flex;
+    justify-content: center;
+    width: 100;
+
+
+}
+.carusel__indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background: white;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+.carusel__indicator.current-slide{
+    background: rgba(133, 93, 93, 0.15);
+}
+
+
+.carusel__buttons{
+    
+    height: 350px;
+    width: 100%;
+    display: flex;
+    
+    position: absolute;
+    top: 0
+    
+
+
+}
+
+.linkbutton{
+    width: 100% ;
+}
+.carusel__button-next{
+    
+    height: 350px;
+    width: 50%;
+    opacity: 0%;
+    cursor: pointer;
+}
+.carusel__button-previous{
+    
+    height: 350px;
+    width: 50%;
+    opacity: 0%;
+    cursor: pointer;
+}
+.carusel__track-container{
+    height: 350px;
+    
+    overflow: hidden;
+    
+    position: relative;
+    
+    
+    
+}
+
+
+div {
+    /* outline: 0.1px solid rgb(226, 22, 22);  */
+}
+.mainframe{
+    /* outline:auto;  TODO remove */
+    margin: 16px;
+    
+}
+.mainpage{
+    padding: 0;
+    margin: 0;
+}
+
+.toMapSinnataggen{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-column-gap: 16px;
+}
+
+.space{
+    margin: 8px 0;
+
+}

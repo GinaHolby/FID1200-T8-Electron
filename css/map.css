@@ -1,0 +1,46 @@
+
+
+body{
+    position: relative;
+}
+
+.back{
+    position: fixed;
+    top: 0;
+    padding: 16px;
+}
+
+
+body {
+    background-color: #ddd;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cfc;
+}
+
+.error {
+    background-color: crimson;
+    color: #fff;
+}
+
+.hide-error {
+    display: none;
+}
+
+.marker {
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 20px;
+    background-repeat: no-repeat;
+    /* background-image: url(../assets/bike.svg);
+    background-size: 100%; */
+    background-color: lightgreen;
+    border-radius: 50px;
+    text-align: center;
+}
