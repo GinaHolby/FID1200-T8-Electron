@@ -48,28 +48,6 @@ nextButton.addEventListener('click', e => {
 
 
 
-function sayhello (currentLat, currentLon){
-
-    console.log(currentLat)
-    console.log(currentLon)
-
-}
-  
-function success(pos) {
-    const crd = pos.coords;
-
-    const currentLat = crd.latitude
-    const currentLon = crd.longitude
-
-    sayhello(currentLat,currentLon)
-}
-
-function error(err) {
-    console.warn(`ERROR(${err.code}): ${err.message}`);
-
-}
-
-navigator.geolocation.getCurrentPosition(success, error);
 
 
 

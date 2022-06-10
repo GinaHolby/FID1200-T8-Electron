@@ -10,14 +10,16 @@
     bottom: 0;
     left: 0%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100vw;
     border-top: 1px solid white;
     background-color: rgba(0,0,0,1);
+    padding: 16px;
    
 }
 
 .menu img{
     
     filter: invert();
+    height: 100px;
 }

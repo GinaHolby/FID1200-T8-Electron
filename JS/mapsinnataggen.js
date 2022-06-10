@@ -109,7 +109,7 @@ async function getMap(){
 
         // filter out the closest bikes if the current position is recieved  
         let closestBikes
-        if (currentPositionRecieved = true){
+        if (currentPositionRecieved == true){
             // filtering out the closest bikestatins
             closestBikes = featuresBikes.filter(stations => {
                 return ((stations.geometry.lon- locationCurrentLon) < 0.008 && (stations.geometry.lon- locationCurrentLon) > -0.008 
@@ -160,6 +160,8 @@ async function getMap(){
         const markerCurrentLocation = new mapboxgl.Marker({ color: 'black' })
         .setLngLat([locationCurrentLon, locationCurrentLat])
         .addTo(map);
+
+        
     
         
         const markerTargetLocation = new mapboxgl.Marker({ color: 'blue' })
