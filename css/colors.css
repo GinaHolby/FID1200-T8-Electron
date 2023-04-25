@@ -1,5 +1,5 @@
 body {
-    background-color: #1a1818;
+    background-color: #191717;
 }
 
 
@@ -7,42 +7,38 @@ h1{
     padding: 0;
     margin: 0;
     color: white;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
 }
 h2{
     color: white;
     padding: 0;
     margin: 0;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
 }
 h3 {
     color: white;
     padding: 0;
     margin: 0;
-     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-     font-size: 24px;
+     font-family: sans-serif;
 }
 h4 {
     color: white;
     padding: 0;
     margin: 0;
-     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: sans-serif;
 }
 h5 {
     color: white;
     padding: 0;
     margin: 0;
-     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-family: sans-serif;
 }
 
 h6 {
     color: white;
     padding: 0;
     margin: 0;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-
+    font-family: sans-serif;
 }
 
 .marker{
